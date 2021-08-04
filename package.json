@@ -1,0 +1,16 @@
+{
+  "name": "kaustubh",
+  "version": "1.0.0",
+  "description": "This is my web portfolio built using Bootstrap v5",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
