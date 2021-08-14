@@ -9,6 +9,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <title>About Me | Kaustubh Singh</title>
@@ -18,7 +20,7 @@
 
     <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
         <div class="container">
-            <a class="navbar-brand mr-auto" href="./index.html">Kaustubh Singh</a>
+            <a class="navbar-brand mr-auto" href="#">Kaustubh Singh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -27,16 +29,32 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./index.html">
+                            <span aria-hidden="true" class="fas fa-home" title="home">
+                            </span>
+                            <span class="sr-only">home</span> Home
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">About</a>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span aria-hidden="true" class="fas fa-info" title="about">
+                            </span>
+                            <span class="sr-only">about</span> About
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#">
+                            <span aria-hidden="true" class="fas fa-project-diagram" title="projects">
+                            </span>
+                            <span class="sr-only">projects</span> Projects
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">
+                            <span aria-hidden="true" class="fas fa-comments" title="contact">
+                            </span>
+                            <span class="sr-only">contact</span> Contact
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -49,8 +67,10 @@
                 <div class="col-12">
                     <h1>Kaustubh Singh</h1>
                     <p>Computer Science Student, CSE 2023</p>
-                    <p>I primarily focus on Software Development and Web Development. I am interested in Machine Learning and Cyber Security.</p>
-                    <p>I write Quality C++ Code with object oriented design. I am also familiar with other Programming Languages like Python, C and JavaScript.</p>
+                    <p>I primarily focus on Software Development and Web Development. I am interested in Machine
+                        Learning and Cyber Security.</p>
+                    <p>I write Quality C++ Code with object oriented design. I am also familiar with other Programming
+                        Languages like Python, C and JavaScript.</p>
                 </div>
             </div>
         </div>
@@ -62,7 +82,9 @@
                 <h3>About Me</h3>
             </div>
             <div class="col">
-                <p>I'm a Undergraduate Student pursuing my Bachelor of Technology (B.Tech) in Computer Science and Engineering at Babu Banarsi Das Institute of Technology and Management (formerly known as Babu Banarsi Das National Institute of Technology and Management), Lucknow UP, India.</p>
+                <p>I'm a Undergraduate Student pursuing my Bachelor of Technology (B.Tech) in Computer Science and
+                    Engineering at Babu Banarsi Das Institute of Technology and Management (formerly known as Babu
+                    Banarsi Das National Institute of Technology and Management), Lucknow UP, India.</p>
             </div>
         </div>
 
@@ -81,9 +103,10 @@
                 <h3>My e-learning Journey and Certificates</h3>
             </div>
             <div class="col-11 offset-1">
-                <p>I learn new tech skills by taking Online courses from Coursera and edX, they provide quality resources.
-                I mostly Audit courses on these sites to get resource material for free.</p>
-                <p>Freecodecamp, Udacity, DataCamp and other various Websites are also part of my learning journey.</p> 
+                <p>I learn new tech skills by taking Online courses from Coursera and edX, they provide quality
+                    resources.
+                    I mostly Audit courses on these sites to get resource material for free.</p>
+                <p>Freecodecamp, Udacity, DataCamp and other various Websites are also part of my learning journey.</p>
             </div>
         </div>
 
@@ -93,7 +116,7 @@
             </div>
             <div class="col-11 offset-1">
                 <p>I Like making websites
-                    
+
                 </p>
             </div>
         </div>
@@ -101,48 +124,72 @@
 
 
 
-       
 
-        
+
+
     </div>
 
     <footer class="footer">
         <div class="container">
-            <div class="row">             
-                <div class="col-12 col-md-5 offset-md-1 text-center">
-                    <h5>Links</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About Me</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+            <div class="row">
+                <div class="col-12 text-center p-2">
+                    Contact Me
                 </div>
-          
-                <div class="col-12 col-md-6 align-self-center">
-                    <div class="text-center">
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://github.com/">GitHub</a>
-                        <a href="mailto:">Mail</a>
-                        <a href="http://twitter.com/">Twitter</a>
+
+                <div id="footer-contact" class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-6 mb-3 align-self-center">
+                            <div class="d-flex flex-row justify-content-center justify-content-md-end">
+                                <a href="mailto:kaustubh5410@gmail.com" target="_blank">
+                                    <i aria-hidden="true" class="fas fa-envelope-square" title="mail"></i>
+                                    <span class="sr-only">mail</span>
+                                </a>
+                                <a href="tel:+91 0123456789" target="_blank">
+                                    <i aria-hidden="true" class="fas fa-phone" title="call"></i>
+                                    <span class="sr-only">call</span>
+                                </a>
+                                <a href="skype:live:kaustubh5410?call" target="_blank">
+                                    <i aria-hidden="true" class="fab fa-skype" title="skype"></i>
+                                    <span class="sr-only">twitter</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 mb-3 align-self-center">
+                            <div class="d-flex flex-row justify-content-center justify-content-md-start">
+                                <a href="https://linkedin.com/in/kaustubh---singh" target="_blank">
+                                    <i aria-hidden="true" class="fab fa-linkedin-in" title="Linkedin"></i>
+                                    <span class="sr-only">Linkedin</span>
+                                </a>
+                                <a href="https://github.com/kaustubh3000" target="_blank">
+                                    <i aria-hidden="true" class="fab fa-github" title="github"></i>
+                                    <span class="sr-only">github</span>
+                                </a>
+                                <a href="https://twitter.com/kaustubhspeaks" target="_blank">
+                                    <i aria-hidden="true" class="fab fa-twitter" title="twitter"></i>
+                                    <span class="sr-only">twitter</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-           </div>
 
-           <hr>
+            </div>
 
-           <div class="row text-center">             
+            <hr>
+
+            <div class="row text-center">
                 <div class="col">
                     <p>&copy; 2021 Kaustubh Singh</p>
                 </div>
-           </div>
+            </div>
         </div>
     </footer>
 
-     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 

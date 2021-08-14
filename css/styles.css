@@ -10,18 +10,6 @@
     min-height: 300px;
 }
 
-.footer {
-    background-color: #000814;
-    color: white;
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-}
-
-.footer a{
-    text-decoration: none;
-    color: white;
-    
-}
 
 /* bootstrap 5 has no jumotron class */
 .header-jumbotron {
@@ -44,3 +32,92 @@ body{
 .navbar-dark {
     background-color: #023E8A;
 }
+
+/* Footer */
+
+.footer {
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+footer{
+    background-color: #F7F7F7;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+
+}
+
+footer hr{
+    background-color: #023E8A;
+    width: 100%;
+}
+
+
+
+/* NeoMorphic style Icons*/
+#footer-contact{
+    display: flex;
+    justify-content: center;
+}
+#footer-contact a{
+    display: flex;
+    /*background-color:  #FFF;*/
+    height: 60px;
+    width: 60px;
+    margin: 0 15px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    6px 6px 10px -1px rgba(225, 225, 225, 0.7);
+}
+
+footer #footer-contact a{
+    font-size: 22px;
+    color: black;
+    transition: transform 0.5s;
+
+}
+
+#footer-contact a:hover, #footer-contact a:focus{
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset 4px 4px 6px -1px rgba(225, 225, 225, 0.7),
+                0.5px 0.5px 0px rgba(225, 225, 225, 1),
+                0.5px 0.5px 0px rgba(225, 225, 225, 0.7);
+    
+    border: 1px solid rgba(0, 0, 0, 0);
+    transform: translateY(2px);
+}
+
+#footer-contact a:hover i{
+    transform: scale(0.90);
+}
+
+a:hover .fa-twitter, a:focus .fa-twitter, a:active .fa-twitter{
+    color: #00acee;
+}
+a:hover .fa-linkedin-in, a:focus .fa-linkedin-in, a:active .fa-linkedin-in{
+    color: #0072b1;
+}
+a:hover .fa-github , a:focus .fa-github, a:active .fa-github {
+    color: #000;
+}
+
+a:hover .fa-skype, a:focus .fa-skype, a:active .fa-skype{
+    color: #00acee;
+}
+a:hover .fa-phone, a:focus .fa-phone, a:active .fa-phone{
+    color: #34A853;
+}
+a:hover .fa-envelope-square , a:focus .fa-envelope-square, a:active .fa-envelope-square {
+    color: #BB001B;
+}
+
